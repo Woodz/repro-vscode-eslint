@@ -1,0 +1,15 @@
+{
+  "name": "@woodz/child2",
+  "version": "1.0.0-SNAPSHOT",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

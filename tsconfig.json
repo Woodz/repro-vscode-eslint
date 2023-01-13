@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "sourceMap": true,
+    "composite": true,
+    "resolveJsonModule": true,
+    "module": "ES2022",
+    "moduleResolution": "node"
+  },
+  "include": ["**/src/**/*"],
+  "exclude": ["**/__tests__/**/*"],
+  "types": ["jest"]
+}
